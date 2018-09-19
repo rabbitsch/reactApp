@@ -10,9 +10,9 @@ class App extends Component {
     this.state = {
 
       name: 'rabbit',
-      color: 'beautiful',
-      reason: 'fuzzy',
-      title: 'bitches',
+      color: 'fuzzy',
+      reason: 'carrots',
+      title: 'peoples',
 
 
     };
@@ -43,7 +43,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1> Here is my title {this.state.title}</h1>
-        <button onClick={() => this.titleChanger('hoes')}>Press dem Button</button>
+        <button onClick={() => this.titleChanger('Dog')}>Press dem Button</button>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">This is Kevins Practice React</h1>
